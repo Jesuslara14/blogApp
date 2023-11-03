@@ -1,0 +1,49 @@
+nav{
+    height: 125px;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    background-color: #96261e;
+    color: white;
+  }
+  
+  nav .navContent{
+    height: 70%;
+  }
+  
+  nav .navLinks{
+    height: 30%;
+    display: flex;
+    text-align: center;
+    background-color: black;
+  }
+  
+  .navLinks a:link {
+    color: white;
+    margin: 5px;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .navLinks a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  .navLinks a:active {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+  .navUserCard{
+    float: right;
+    padding: 5px;
+    padding-right: 15px;
+  }
+
+  .navUserAvatar{
+    height: 50px;
+    border-radius: 9999px;
+  }

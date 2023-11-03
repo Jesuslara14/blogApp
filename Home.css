@@ -1,0 +1,24 @@
+.posts{
+    padding: 15px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.post{
+    width: 30%;
+    padding: 10px;
+    height: fit-content;
+    margin: auto;
+    background-color: #d1d1d1;
+    border: gray 5px solid;
+}
+
+.post-img{
+    width: 100%;
+}
+
+.caption{
+    height: 150px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
